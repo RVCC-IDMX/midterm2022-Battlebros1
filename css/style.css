@@ -33,22 +33,22 @@ header{
     width:200px;
 }
 
-/* Bio Section */
+/* reviews Section */
 
-#bio {
+#reviews {
     font-weight: bolder;
     color: #000000;
     text-align: center;
 
 }
 
-/* Hobbies Section */
+/* my work Section */
 
-#hobbies ul {
+#work ul {
     list-style: none;
 }
 
-#hobbies ul li:hover {
+#work ul li:hover {
     display: flex; 
     flex-direction: column; 
     align-items: center;
@@ -67,64 +67,25 @@ header{
     max-width: 100%;
 }
 
-#gallery figure{
-    text-align: center;
-}
-
-/* Literature Section */
-
-#lit {
-    border: 2px solid #5c8fe0;
-    margin-bottom: 2rem;
-}
-
-#lit div {
-    padding: 2rem;
-    max-width:  40rem;
-    margin: 0 auto;
-}
-
-/*Dropcaps*/
-
-#lit div p:nth-child(1):first-letter{
-    color: rgb(255, 0, 191);
-    float: left;
-    font-size: 3em; 
-    padding: .25em;
-    margin-right: .25em;
-    line-height: .65;
-    border: 4px outset rgb(255, 0, 191);
-    font-family: 'Times New Roman', Times, serif;
-    text-shadow: 2px 2px 3px black; 
-    box-shadow: 5px 5px 5px black;
-    border-top-left-radius: .2em;
-    border-bottom-right-radius: .2em;
-}
-
 /* tablet size */
 
 @media screen and (min-width: 60em) {
     figure {
-        display: grid;
-        grid-template-columns: 2fr 2fr;
+        display: column;
+        grid-template-columns: 1fr;
     }
 
     figcaption{
         display: flex;
         justify-content: center;
-        align-items: center;
-        font-size: 2rem;
+        align-items: center;;
         margin-left: 1rem;
     }
 
     figure img {
-        width: 100%;
+        width: 90%;
     }
 
-    #lit div {
-        max-width: 100%;
-        columns: 20rem;
-    }
 }
 
 /* Large screen size */
