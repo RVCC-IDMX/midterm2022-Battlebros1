@@ -1,3 +1,3 @@
 # 
 
-Thomas Kavaliauskas
+Thomas Kavaliauskas - created for midterm
